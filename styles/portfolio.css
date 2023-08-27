@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-portfolio {
+    olor: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.single-letter {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 50px;
+    list-style: none;
+
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+.buttton-clr {
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    padding: 10px
+}
