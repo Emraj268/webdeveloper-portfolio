@@ -2,6 +2,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
+
 }
 
 h3 {
@@ -46,4 +48,18 @@ nav a {
     color: white;
     font-weight: 700;
     padding: 10px
+}
+
+.header {
+    background: #FFF8F3;
+}
+
+.banner {
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    height: 500px;
 }
