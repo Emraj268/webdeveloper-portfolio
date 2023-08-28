@@ -58,9 +58,11 @@ nav a {
     margin: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+
+
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     justify-content: space-between;
 }
 
