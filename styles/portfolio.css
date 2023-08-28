@@ -93,6 +93,7 @@ nav a {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-top: 130px;
 }
 
 .section-des {
@@ -141,4 +142,42 @@ nav a {
     width: 250px;
     height: 250px;
     margin-right: 10PX;
+    padding-top: 20px;
+}
+
+.resume-item {
+    color: #474747;
+    font-size: 30px;
+
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+}
+
+.resume-section {
+    background: #FFF;
+
+    margin: 10px 300px;
+
+
+
+}
+
+.resume-container {
+    margin-right: 20px;
+}
+
+hr {
+    margin-right: 50px;
+}
+
+.resume-items {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.download-cv {
+    text-align: center;
 }
