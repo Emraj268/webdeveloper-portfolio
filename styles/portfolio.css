@@ -12,7 +12,7 @@ h3 {
 }
 
 .nav-portfolio {
-    olor: var(--dark-01, #181818);
+    olor: #181818;
     font-family: Open Sans;
     font-size: 45px;
     font-style: normal;
@@ -180,4 +180,59 @@ hr {
 
 .download-cv {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-container {
+    display: flex;
+
+    background: #FFF8F3;
+    margin-top: 30px;
+
+    margin: 10px 300px;
+}
+
+#name {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: white-color, #FFF;
+    width: 250px;
+    height: 30px;
+    flex-shrink: 0;
+
+}
+
+#email {
+    width: 250px;
+    height: 30px;
+
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: white-color, #FFF;
+}
+
+#message {
+    width: 250px;
+    height: 130px;
+
+    border-radius: 5px;
+    background: white-color, #FFF;
+}
+
+.footer-tittle {
+    padding: 20px;
+    margin-right: 150px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+
+}
+
+.icons {
+    display: flex;
+}
+
+.icons-info {
+    margin-right: 20px;
 }
